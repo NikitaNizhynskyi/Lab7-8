@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задоволення від кожного шматочка</title>
+  <link rel="stylesheet" href="lb7-8_NikitaNizhynskyi.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Задоволення від кожного шматочка</h1>
+  </header>
+
+  <div class="container">
+    <input type="radio" name="type" id="all" checked>
+    <input type="radio" name="type" id="cake">
+    <input type="radio" name="type" id="cookie">
+    <input type="radio" name="type" id="dessert">
+
+    <aside class="sidebar">
+      <h3>Фільтри</h3>
+
+      <p>Калорійність</p>
+      <input type="number" placeholder="від">
+      <input type="number" placeholder="до">
+
+      <p>Тип виробу</p>
+      <div class="filter-buttons">
+        <label for="all">Усі</label>
+        <label for="cake">Торти</label>
+        <label for="cookie">Печиво</label>
+        <label for="dessert">Десерти</label>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="grid">
+
+        <div class="card cake">
+          <img src="images/Chocolate.jpg" alt="Шоколадний торт">
+          <h4>Шоколадний торт</h4>
+          <hr>
+          <p>Насичений торт з шоколадним кремом.</p>
+        </div>
+
+        <div class="card cookie">
+          <img src="images/Cookie.jpg" alt="Вівсяне печиво">
+          <h4>Вівсяне печиво</h4>
+          <hr>
+          <p>Хрустке печиво, ідеальне до чаю.</p>
+        </div>
+
+        <div class="card dessert">
+          <img src="images/Chizcake.jpg" alt="Чізкейк">
+          <h4>Чізкейк</h4>
+          <hr>
+          <p>Десерт без випікання з ніжним смаком.</p>
+        </div>
+
+        <div class="card dessert">
+          <img src="images/Limon.jpg" alt="Лимонний тарт">
+          <h4>Лимонний тарт</h4>
+          <hr>
+          <p>Поєднання кисло-солодкого смаку.</p>
+        </div>
+
+        <div class="card cake">
+          <img src="images/Carrot.jpg" alt="Морквяний торт">
+          <h4>Морквяний торт</h4>
+          <hr>
+          <p>Пряний торт з морквою та горіхами.</p>
+        </div>
+
+        <div class="card cookie">
+          <img src="images/Chocolate cookie.jpg" alt="Шоколадне печиво">
+          <h4>Шоколадне печиво</h4>
+          <hr>
+          <p>Класичне печиво з какао.</p>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Галерея рецептів</p>
+  </footer>
+
+</body>
+
+</html>
